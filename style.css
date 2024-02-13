@@ -101,16 +101,19 @@ body
     font-size: 18px;
 }
 
-button.signUpButton
+.signUpButton
 {
     background-color: #3882f6;
     width: fit-content;
     color: #f9faf7;
     font-size: 18px;
+    border-width: 0px;
     font-weight: 600;
     flex: 0 0 auto;
     margin-top: 18px;
-    padding: 5px 20px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 #firstBottom .right
@@ -130,7 +133,6 @@ button.signUpButton
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    outline: greenyellow solid 3px;
     padding: 40px 200px 100px 200px;
     
 }
@@ -158,12 +160,18 @@ button.signUpButton
     flex: 0 0 auto;
     flex-direction: column;
     width: min-content;
+    
     /* width: fit-content; */
+}
+
+.roundedCorner
+{
+    border-radius: 25px;
 }
 
 .squareImgContainer
 {
-    border-radius: 25px;
+    /* border-radius: 25px; */
     border: 4px solid #3b82f6;
     padding: 20px;
     width: fit-content;
@@ -171,6 +179,8 @@ button.signUpButton
     flex: 0 0 auto;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+
 }
 
 .squareImgContainer img
@@ -188,3 +198,89 @@ button.signUpButton
     width: auto;
     text-align: center;
 }
+
+#thirdSection
+{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 220px;
+}
+
+.quote
+{
+    font-size: 37pt;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    flex: auto;
+}
+
+.citation
+{
+    text-align: right;
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+#fourthSection
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 220px;
+}
+
+
+
+#CallToAction
+{
+    background-color: #3b82f6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#CallToAction .left *
+{
+    margin: 10px 0px;
+}
+
+#CallToAction .left 
+{
+    flex: 0 1 auto;
+    
+}
+
+#CallToAction .left .title
+{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+#CallToAction .left .persuasiveTxt
+{
+    color: white;
+    
+}
+
+.readNowButton
+{
+    flex: 0 1 auto;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid white;
+}
+
+footer
+{
+    background-color: #1f2937;
+    color: #f9faf7;
+    padding: 10px 220px;
+    text-align: center;
+}
+
